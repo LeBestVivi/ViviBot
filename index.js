@@ -4,6 +4,7 @@ const https = require('https');
 const URL = require('url');
 const Stream = require('stream');
 const FormData = require('./FormData');
+const token = porcess.env.token;
 
 const Package = require('../../package.json');
 
@@ -149,3 +150,7 @@ module.exports = {
   FormData,
   Extension: Stream.Readable,
 };
+
+
+
+bot.login(token);
