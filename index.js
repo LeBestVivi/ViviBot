@@ -4,7 +4,7 @@ const https = require('https');
 const URL = require('url');
 const Stream = require('stream');
 const FormData = require('./FormData');
-const token = process.env.token
+const token = process.env.token;
 
 const Package = require('../../package.json');
 
